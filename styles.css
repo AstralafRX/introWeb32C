@@ -1,0 +1,82 @@
+/*estilos generales*/
+html{
+    /*tamaño b ase 1rem = 16px*/
+    font-size: 16px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*ESTILOS DE HEADER*/
+header{
+    background-color: #03522d;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 1%;
+    
+}
+menu{
+    padding: 1rem;
+}
+.icon{
+    width: 150px;
+    cursor: pointer;
+}
+.lista-navegacion li{
+    display: inline-block; 
+    padding: 1% 10px;
+}
+a{
+    text-decoration:none;
+    color: aquamarine;
+}
+h1{
+    text-align: center;
+}
+/*empiezan clases de posicion*/
+.mi-card {
+    position: relative;
+    width: 300px;
+    border-radius: 15px;
+}
+#position{
+    
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    
+
+}
+.mi-card img {
+    width: 100%;
+    border-radius: 15px;
+    display: inherit;
+}
+.box-hover {
+    position: absolute;
+    border-radius: 15px;
+    top: 0;
+    background-color: #00000049;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    
+}
+.box-hover:hover{
+    opacity: 1;
+}
+.mas {
+    position: absolute;
+    right: 13px;
+    top: 13px;
+}
+.more-options{
+    position: absolute;
+    right: 13px;
+    bottom: 13px;
+}
+/*terminan clases de posicion*/
+/*empiezan clases de Grid*/
